@@ -1,0 +1,8 @@
+[ 2024-05-21 12:46:44,976 ] 46 ipykernel.comm - ERROR - No such comm target registered: jupyter.widget.control
+[ 2024-05-21 12:46:44,980 ] 212 Comm - WARNING - No such comm: 62c76add-cf24-4687-b978-232e1ea8f929
+[ 2024-05-21 12:48:26,964 ] 46 ipykernel.comm - ERROR - No such comm target registered: jupyter.widget.control
+[ 2024-05-21 12:48:26,967 ] 212 Comm - WARNING - No such comm: 86d4b12e-1715-4a5b-9613-4c7c559841ca
+[ 2024-05-21 14:21:35,462 ] 46 ipykernel.comm - ERROR - No such comm target registered: jupyter.widget.control
+[ 2024-05-21 14:21:35,462 ] 212 Comm - WARNING - No such comm: ef27fc09-640a-4900-9806-ce097baaacff
+[ 2024-05-21 15:02:11,081 ] 46 ipykernel.comm - ERROR - No such comm target registered: jupyter.widget.control
+[ 2024-05-21 15:02:11,097 ] 212 Comm - WARNING - No such comm: 6b89f6ef-8d20-4d88-bf54-fcb76e3c9351
