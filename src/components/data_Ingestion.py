@@ -1,4 +1,7 @@
 import os, sys
+# Add the src directory to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 import pandas as pd
 import numpy as np
 from dataclasses import dataclass
@@ -21,7 +24,7 @@ class DataIngestion:
         logging.info("Data Ingestion started")
         try:
             logging.info("Data reading using pandas library from local system")
-            data=pd.read_csv(os.path.join("C:/Users/milind.mali/OneDrive - Technovert/ML Pipeline/ML-project-pipeline/Notebook/data","income_cleandata.csv"))
+            data=pd.read_csv(os.path.join(r"C:\Users\milind.mali\DSP\ML-project-pipeline\Notebook\data","income_cleandata.csv"))
             logging.info("Data reading completed")
 
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)

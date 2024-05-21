@@ -1,0 +1,2 @@
+[ 2024-05-21 12:04:25,036 ] 46 ipykernel.comm - ERROR - No such comm target registered: jupyter.widget.control
+[ 2024-05-21 12:04:25,049 ] 212 Comm - WARNING - No such comm: a89b7f35-a7da-42ff-b110-05ad899bf788
