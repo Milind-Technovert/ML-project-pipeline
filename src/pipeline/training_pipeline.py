@@ -17,3 +17,4 @@ if __name__=="__main__":
     train_arr, test_arr, _=data_transformation.inititate_data_transformation(train_data_path,test_data_path)
     model_training=ModelTrainer()
     model_training.initiate_model_trainer(train_arr,test_arr)
+
